@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+  <html lang="en">
+    <head>
+     <meta charset="UTF-8">
+     <title>Burger Base</title>
+     <link rel="stylesheet" href="styles.css" />
+    </head> 
+    <body>
+     <h1 id="title">Burger Base</h1> 
+     <p id="description">Thank you for helping participating in this survey. Please fill this form honestly so we can best improve our services.</p>
+   <form id="survey-form">
+    <fieldset>
+        <div class="information">
+        <label for="name" id="name-label">First and Last Name: <input id="name" name="name" type="text" placeholder="Name" required /></label>
+        <label for="email" id="email-label">Email: <input id="email" name="email" type="email" placeholder="Valid Email Addresses Only" required /></label>
+        <label for="number" id="number-label">How old are you?: <input id="number" name="number" type="number" name="number" min="15" max="100" placeholder="Age" required/></label>
+        </div>        
+      </fieldset>
+      <fieldset>
+        <div class="yes-or-no">
+        <legend>Have you ever eaten at our restaurant?</legend>
+        <label for="option"><input id="option" type="radio" name="option" value="option" class="inline" checked /> Yes</label>
+        <label for="option"><input id="option" type="radio" name="option" value="option" class="inline" /> No</label>   
+        </div>    
+    </fieldset>
+    <fieldset>
+      <div class="best-option">
+       <label>What was your favorite aspect of this area?
+         <select id="dropdown" name="dropdown">
+           <option value="">(select option)</option>
+           <option value="1">Reliability</option>
+           <option value="2">Hospitality</option>
+           <option value="3">Affordability</option>
+           <option value="4">Knowledgable Staff</option>
+           <option value="5">Variety of Options</option>
+           <option value="6">Other</option>
+         <select>
+      <label>
+     </div>
+    </fieldset>
+    <fieldset>
+     <div class="checklist">
+      <legend>What more do you want to see from Burger Base? </legend>
+         <input type="checkbox" id="checkbox" name="checkbox" value="Exotic"> Exotic
+         <input type="checkbox" id="checkbox" name="checkbox" value="Vegetarian"> Vegetarian
+         <input type="checkbox" id="checkbox" name="checkbox" value="Fries"> Fries  
+         <input type="checkbox" id="checkbox" name="checkbox" value="Drinks"> Drinks 
+         <input type="checkbox" id="checkbox" name="checkbox" value="Desserts"> Desserts
+     </div> 
+    </fieldset>
+    <fieldset>
+     <div class="Misc.">
+       <label for="suggestions">Any other suggestions or comments?
+         <textarea id="suggestions" name="suggestions" rows="5" cols="30" placeholder="Comments go here..."></textarea>
+       </label>
+     </div>
+    </fieldset>
+        <input type="submit" id="submit" value="Submit"/>        
+      </form>
+    </body>
+  </html>
