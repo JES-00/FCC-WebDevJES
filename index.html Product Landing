@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+  <html lang="en">
+  <meta charset="uth-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Product Landing</title>
+  <link rel="stylesheet" href="styles.css"/>
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet"/> 
+    <header id="header">
+     <div class="logo">
+      <img id="header-img" src="https://static.vecteezy.com/system/resources/thumbnails/001/500/511/small/computer-mouse-icon-free-vector.jpg"/>
+      <span class="logo-title">Virus Erasers</span>
+    </div>
+      <nav id="nav-bar">
+        <ul>
+         <li><a class="nav-link" href="#about-us">About Us</a></li>
+         <li><a class="nav-link" href="#how-to-use">How to Use</a></li>
+         <li><a class="nav-link" href="#products">Products</a></li>
+         <li><a class="nav-link" href="#inquiries">Inquiries</a></li>
+      </ul>
+      </nav>
+    </header>
+    <body>
+     <section class="main-section" id="about-us">
+      <div class="about">
+      <h1>Over the past few years, each of us erasers have been dedicated to providing quality services at an affordable rate. We pride ourselves on fixing computers at an efficiancy directly to you.</h1>
+      </div>
+     </section>
+     <section class="features" id="features">
+     <div class="icon"><i class="ri-computer-line ri-4x"></i></div>
+     <div class="desc">
+       <h2>We accept all mainstream computer brands!</h2>
+         <p>Have any problems with your computer? Our technical staff have been trained to fix issues from computer brands such as HP, Dell, Lenovo, Windows, Apple, and more!</p>
+     </div>
+     <div class="icon"><i class="ri-time-line ri-4x"></i></div>
+     <div class="desc">
+       <h2>We are quick on our repairs!</h2>
+         <p>Each of our erasers are on it to fix your computer so you can get back to your necessities as quickly as possible. Don't worry! We are focused on quality and make sure everything works perfectly before handing yuor device back to you.</p>
+     </div>
+     <div class="icon"><i class="ri-money-dollar-box-fill ri-4x"></i></div>
+     <div class="desc">
+       <h2>We provide competitive and fair deals!</h2>
+         <p>With our business, you can rest easy knowing that we offer competitives rates that will satisfy your wallet!</p>
+     </div>   
+     </section>
+     <section class="main-section" id="how-to-use">
+       <iframe
+       id="video"
+       width="560"
+       height= "315" 
+       display="block" 
+       src="https://www.youtube.com/embed/dpPjCnSl-i0?si=13qP27MpNuRiaLYJ" 
+       title="YouTube video player" 
+       frameborder="0" 
+       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+referrerpolicy="strict-origin-when-cross-origin" 
+allowfullscreen></iframe>
+      </section> 
+     <section class="main-section" id="products">
+         <div class="product">
+           <h3>VIRUS REMOVAL</h3>
+         <p id="price">Starting at $75</p>
+         <p>We clean up your PC and make it like new again!</p>
+         <p>Drop it off in the morning and pick it up in the afternoon!</p>
+         <p>We even transfer your data!*</p>
+         <p>*As applicable as possible depending on circumstance.</p>
+         <button type="submit" value="Select" class="slct">Select</button>
+         </div>
+         <div class="product">
+           <h3>PART REPLACEMENT</h3>
+         <p id="price">Starting at $100</p>
+         <p>Need a replacement? We offer quick and easy fixes!</p>
+         <p>Part replacement dependent on inventory</p>
+         <p>Est. time: 1-Day - 1 Week*</p>
+         <p>*Time dependent on supply and availability</p>
+         <button type="submit" value="Select" class="slct">Select</button>
+         </div>
+         <div class="product">
+           <h3>SCREEN REPLACEMENT</h3>
+         <p id="price">Starting at $110</p>
+         <p>No-hassle fix!</p>
+         <p>Drop it off in the morning and pick it up the next day!</p>
+         <p>Screen replacement available for most computer brands!*</p>
+         <p>*Laptops only.</p>
+         <button type="submit" value="Select" class="slct">Select</button>
+         </div> 
+     </section>
+     <section id="inquiries">
+       <p>Questions or comments regarding our services? Please reach out to us below through a valid email address and we'll reach back to you as quick as possible!</p>
+       <form id="form" action="https://www.freecodecamp.com/email-submit">
+        <input id="email" placeholder="Valid Email Addresses Only" type="email" name="email" required/>
+        <input
+        id="submit" type="submit" value="Submit" class="slct"></input>
+       </form>
+     </section>
+     <footer>
+       <ul>
+         <li><a href="#">Data Usage</a></li>
+         <li><a href="#">T&C</a></li>
+         <li><a href="#">Contact</a></li>
+       </ul>
+      <span>Copyright 2024, Virus Erasers</span>
+      </footer>
+     </div>
+    </div> 
+    </body>
+  </meta>
+  </html>
