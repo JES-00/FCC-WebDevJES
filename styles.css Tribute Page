@@ -1,0 +1,36 @@
+html {
+  font-size: 15px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  * {
+    scroll-behavior: smooth;
+  }
+} 
+
+body {
+  background: #1b1b32;
+  color: #f5f6f7;
+  font-family: Helvetica;
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  color: #ff0000;
+}
+
+li {
+  list-style: none;
+}
+
+p {
+  padding: 0 0 20px 0;
+}
+
+#image {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+}
