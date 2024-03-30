@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content"width=device-width, initial-scale=1.0">
+  <title>Technical Documentation</title>
+  <link rel="stylesheet" href="./styles.css">
+ </head>
+ <body>
+  <nav id="navbar">
+    <header class="navheader">Table of Contents</header> 
+    <ul>
+      <li class="nav-list"><a  class="nav-link" href="#About_HTML_and_CSS">About HTML and CSS</a></li>
+      <li class="nav-list"><a class="nav-link"href="#Prerequisites">Prerequisites</a></li>
+      <li class="nav-list"><a class="nav-link" href="#Important_Variables">Important Variables</a></li>
+      <li class="nav-list"><a  class="nav-link" href="#Usage">Usage</a></li>
+    <a class="nav-link" href="#Reasons_to_Learn">Reasons to Learn</a></li>
+    <li class="nav-list"><a  class="nav-link" href="#Where_to_learn_more">Where to learn more</a></li>   
+    </ul>     
+  </nav>  
+  <main id="main-doc"><div id="title"> Why you should learn how to code in HTML and CSS!</div>
+     <section class="main-section" id="About_HTML_and_CSS">
+       <header>About HTML and CSS</header>
+         <p>HTML and CSS, also knowns as Hyper Text Markup Language and Cascading StyleSheet, flow together to help out in creating websites. HTML is the main language used to create the bulk of the website, while CSS is a stylesheet that helps customize a website down to the exact section. It may sound complicated but with a bit of technical knowledge, you can learn how to have a grasp of HTML and CSS.</p>
+         <p>Follow along this website as it shows a preview of what you can expect in HTML and CSS. You can equate this to a stepping stone in your learning journey if you decide to pursue it.</p>
+     </section>
+     <section class="main-section" id="Prerequisites">
+       <header>Prerequisites</header>
+        <p>Before you start learning what HTML and CSS are, it's important to know the requirements for utilizing the languages. Knowledge of these prerequisites are important for a proper learning experience. Luckily you don't need a fancy supercomputer like what NASA has or high-end technology, all you need is the following: </p>
+        <ul>
+<li>A computer with a sizable amount of RAM, read access memory for short.</li>
+<li>An internet browser</li>
+<li>A text editor</li>
+        </ul>
+        <p> Once you have the necessary materials, you can scroll on over to the next section where you can get a glimpse of HTML and CSS by learning some important variables.  </p>
+     </section>  
+     <section class="main-section" id="Important_Variables">
+       <header>Important Variables</header>
+         <p>In this section, there will be some important variables that are a must for learning HTML and CSS. Follow along and you yourself at home can try them out as well. The first three points will be related to HTML, and the last three will be for CSS.</p>
+         <ul>
+<li>H1 through h6 define HTML headings. H1 has the highest priority while each successive h tag has lower priority.<code><h1>Hello World</h1><h2>Good Morning</h2><h3>Layers upon layers of coding await</h3></code></li>
+<li>Div is the variable that is used to signify the section in an HTML document. Put a class attribute inside the division element and you have one of the many ways of creating clean code to follow along to!<code><div class="example"> This is used to clarify a small section of this webpage</div></code>Div helps out especially when you have a longer html page and you want to be able to modify certain aspects of your code.</li>
+<li> Another important variable used in HTML is the p variable. It's what you use to write paragraphs or chunks of text and can be stylized just like a word document. You can <strong>bold</strong> the text with <em>strong</em>, <em>italicize</em> your text with em, or <small>downsize</small> your text with small. For example: <code><p>You can use a paragraph <strong>exactly</strong> like how you would in a paper. Remember that the letter <em>p</em> is what you use if you want to make a new paragraph. <small>One last thing, make sure to not forget the opening and closing tags.</small></p></code>Now that you have got a bit of HTML fundamentals down, let's scroll down to a few important CSS essentials. This is where the creative juices get flowing!</li>
+
+<li>The background-color property is used in CSS to select what color the background of the webpage will be. The way this input works is that you put input html as an element selector, then put in brackets to put in your properties. The input should look like this,
+  <code><div class="ex1">html {</div>
+<div class="ex1">background-color: beige;</div>
+<div class="ex1">}</div></code>Now if you want to place a property for a specific channel, then the next variable contains an example.</li>
+<li>For how the navigation bar is created, I use a few more properties to get it to be properly displayed. The code that is applied is a follows:<code><div class="ex2">#navbar {
+  <div class="ex2">position: fixed;</div>
+  <div class="ex2">height: 125vh;</div>
+  <div class="ex2">border-right: solid;</div>
+  <div class="ex2">border-width: 2.5px;</div>
+  <div class="ex2">overflow: hidden;</div>
+  <div class="ex2">color: black;</div>
+  <div class="ex2">background-color: gray;</div>
+}</code>
+From top to bottom, the position is fixed to the left side of the screen. VH stands for viewport height and it's set to 125. The higher the number, the further down the navigation bar travels across the border. The border on the right side is solid and has a width of 2.5px to make it stand out on the webpage. The overflow property is set to hidden so that the text does not spread out to another section, The color of each section is black, and the background color is gray to distinguish it further from the text page. </li>
+         <p>These examples are just a sample of what you can do through experimenting with HTML and CSS. Did you think that was cool? Next, get a glimpse into how HTML and CSS can both be used. You'll be surprised at some of the stuff that you can make after some learning.</p>
+     </section>
+     <section class="main-section" id="Usage">
+       <header>Usage</header>
+         <p>HTML and CSS are flexible enough in that you can create almost anything to your heart's content! These are among a few examples you can use them for: </p>
+     <ul>
+       <li>Webpages (Obviously!)</li>
+       <li>Creating Art</li>
+       <li>Making menus for a restaurant or local business</li>
+       <li>Creating animations</li>
+       <li>Making a portfolio page</li>  
+     </ul>
+         <p>The ways you can use it are so worth the ideas for learning the languages. Now you might be wondering, why should I learn these languages? Well good question, the next section presents to you a few simple reasons as to why you should learn them in your spare time!</p>
+     </section>
+     <section class="main-section" id="Reasons_to_Learn">
+       <header>Reasons to Learn</header>
+         <p>Learning HTML and CSS are can prove influential toward learning how to become a competent programmer. These are some of the following reasons as to why you should learn these two langauges: </p>
+
+<ul>
+  <li>They are among the easiest programming languages to learn!</li>
+  <li>This means they are very intuitive even for the beginner programmer.</li>
+  <li>HTML and CSS are at a low risk of becoming obsolete. Although companies do utilize other programming languages such as Javascript, the former two languages are used for the basis of a webpage.</li>
+  <li>You could pursue job opportunities once you develop your projects!</li>
+  <li>You can even wow your family and friends with your newfound knowledge!</li>
+         <p>Are you hooked yet? If so, read the next section to figure out your next steps.</p>
+     </section>
+     <section class="main-section" id="Where_to_learn_more">
+       <header>Where to learn more</header>
+         <p>You can learn more about HTML and CSS by using the internet to look up different variables and concepts. You can utilize resources such as <a href="www.google.com/">Google</a>, <a href="w3schools.com/">W3 Schools</a>, and <a href="https://developer.mozilla.org/en-US/">MDN Web Docs</a> just to get started.</p>
+         <p>This information is gathered from what the author has learned through <a href="https://www.freeCodeCamp.org/">freecodecamp.org</a>, <a href="w3schools.com/">W3 Schools</a>, and <a href="https://developer.mozilla.org/en-US/">MDN Web Docs</a></p>.
+     </section>  
+  </main>
+ </body>
+</html>
