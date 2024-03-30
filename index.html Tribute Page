@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+  <html lang="en">
+    <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Tribute to Stan Lee</title>
+     <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+      <main id="main">
+        <div id="page">
+         <h1 id="title">Tribute to Stan Lee</h1>
+        <figure id="img-div">
+          <img id="image" src='https://media.npr.org/assets/img/2018/11/12/gettyimages-615970090_slide-ccaf8044e851e59fd8fd78a184d2d4104dd04f84-s1100-c50.jpg'></img>
+          <figcaption id="img-caption">
+      Smilin' Stan Lee at a Marvel movie premiere!
+          </figcaption>
+        </figure> 
+          <div id="tribute-info">
+        <p>Stan Lee is the face of Marvel as he assisted in the creation of iconic characters such as Spider-Man, the X-Men, and the Fantastic Four!</p>
+        <ul>
+          <li><strong>1922</strong> - Stan Lee was born on December 28th, 1922.</li>
+          <li><strong>1939</strong> - Stan Lee is hired as an assistant for Timely Comics, the predecessor of Marvel Comics.
+          <li><strong>1961</strong> - Stan Lee creates the Fantastic Four with Jack Kirby, and the first Fantastic Four comic was released in November 1961.
+          <li><strong>1962</strong> - Stan Lee co-created Spider-Man with Steve Ditko. Spider-Man first debuted in <i>Amazing Fantasy</i> #15 in August 1962</li>
+          <li><strong>1963</strong> - Stan Lee co-created the X-Men with Jack Kirby. The first X-Men comic was released in September 1963.</li>
+          <li><strong>1965</strong> - Stan Lee formed the <q>Bullpen Bulletins</q> section of each Marvel comic. This section formed Marvel as a friendly voice that personally acknowledged the fans.</li>
+          <li><strong>1966</strong> - Stan Lee co-created the Black Panther with Jack Kirby. First appearing in <i>Fantastic Four</i>#52 in July 1966, he would become the first African-American superhero in mainstream comics and has gone on to become an iconic character.</li>
+          <li><strong>1972</strong> - Stan Lee becomes Marvel's publisher.</li>
+          <li><strong>1981</strong> - Stan Lee moves to California to help develop TV and movie properties for Marvel. This would begin the tradition of his cameo appearances in Marvel film adaptations and movies.</li>
+          <li><strong>1998</strong> - Stan Lee founds Stan Lee Media.</li>
+          <li><strong>2001</strong> - Stan Lee co-founds POW! Entertainment.</li>
+          <li><strong>January 2008</strong> - Stan Lee makes a cameo appeareance in <i>Iron Man</i>, the first movie in the Marvel Cinematic Universe.</li>
+          <li><strong>November 2008</strong> - Stan Lee recevies the National Arts Medal. </li>
+          <li><strong>2010</strong> - Stan Lee founds the Stan Lee Foundation with a focus on literacy, education, and the arts.</li>
+          <li><strong>2012</strong> - Stan Lee receives the Lifetime Achievement Award.</li>
+          <li><strong>2018</strong> - Stan Lee dies on November 12th at the age of 98.</li>
+          <blockquote>
+            <b>"Excelsior!"</b>
+          </blockquote>
+          </div>
+             <a id="tribute-link"  target="_blank" href="https://en.wikipedia.org/wiki/Stan_Lee">Visit this website for more information on this person!</a>                
+       </div>
+      </main>
+    </body>  
+  </html>
